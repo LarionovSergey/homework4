@@ -3,10 +3,10 @@
 // 6, 1, 33 -> [6, 1, 33]
 
 int n = 8;
-int[] arr = new int[n];
+int[] array = new int[n];
 Random rand = new Random();
-for (int i = 0; i < arr.Length; i++)
+for (int i = 0; i < array.Length; i++)
 {
-    arr[i] = rand.Next(0,100);
+    array[i] = rand.Next(0,100);
 }
-Console.WriteLine(string.Join(", ", arr));
+Console.WriteLine(string.Join(", ", array));
